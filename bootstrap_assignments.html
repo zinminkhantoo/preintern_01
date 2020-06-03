@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Assignments</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+			<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		.row{			
+			margin-left: 50px;
+		}
+		.col-md-2,.col-md-3{
+			margin-top: 80px;
+		}
+		.col-md-3{
+			margin-left: 30px;
+		}
+		.carousel-inner{
+			margin-top: 100px;
+		}
+		.carousel-inner img{
+			width: 100%;
+			height: 500px;
+		}
+		i{
+			font-size: 70px;
+			margin: 15px;
+		}
+		footer{
+			margin-top: 30px;
+			padding-top: 50px;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+  <a class="navbar-brand" href="#">Linux Operating System</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link active pl-4" href="#">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link pl-4" href="#">PORTFOLIO</a>
+      </li>
+      <li class="nav-item pl-4">
+        <a class="nav-link" href="#">BLOG</a>
+      </li>
+      <li class="nav-item  pl-4">
+        <a class="nav-link" href="#">ABOUT</a>
+      </li>
+      <li class="nav-item  pl-4">
+        <a class="nav-link" href="#">CONTACT</a>
+      </li>    
+      <li class="nav-item  pl-4">
+        <a class="nav-link" href="#">SERVICE</a>
+      </li>
+    </ul>
+  </div>  
+</nav>
+<img src="Images/linux.jpg" class="img-fluid" alt="linux_image">
+<div class="container-fluid">
+		<h2 class="text-center pt-5 mt-4">Popular Linux Distros</h2>
+		<p class="text-center px-5 mx-5">
+			A Linux distribution (often abbreviated as distro) is an operating system made from a software collection that is based upon the Linux kernel and, often, a package management system. Linux users usually obtain their operating system by downloading one of the Linux distributions, which are available for a wide variety of systems ranging from embedded devices.
+		</p>
+		<div class="row">
+    <div class="col-md-2 mr-4 text-center">
+    	<img src="Images/ubuntu-4-svg.png">
+    	<h4>Ubuntu</h4>
+    	<p class="text-justify"><small>Ubuntu is an open source software operating system that runs from the desktop, to the cloud, to all your internet connected things.</small></p>
+		<a href="#" class="btn btn-sm btn-outline-dark" role="button">Read More</a>
+    </div>
+     <div class="col-md-2 mr-4 text-center">
+     	<img src="Images/Kali_Linux_Logo.png ">
+    	<h4>Kali Linux</h4>
+    	<p class="text-justify"><small>Kali Linux, an Advanced Penetration Testing Linux distribution used for Penetration Testing, Ethical Hacking and network security assessments</small></p>
+		<a href="#" class="btn btn-sm btn-outline-dark" role="button">Read More</a>
+    </div>
+    <div class="col-md-2 mr-4 text-center">
+     	<img src="Images/red-hat-svg.png">
+    	<h4>Red Hat</h4>
+    	<p class="text-justify"><small>Today, Red Hat Enterprise Linux supports and powers software and technologies for automation, cloud, containers, middleware</small></p>
+		<a href="#" class="btn btn-sm btn-outline-dark" role="button">Read More</a>
+    </div>
+    <div class="col-md-2 mr-4 text-center">
+     	<img src="Images/OpenSUSE.png">
+    	<h4>Open SUSE</h4>
+    	<p class="text-justify"><small>openSUSE formerly SUSE Linux and SuSE Linux Professional, is a Linux distribution sponsored by SUSE Software Solutions</small></p>
+		<a href="#" class="btn btn-sm btn-outline-dark" role="button">Read More</a>
+    </div>
+     <div class="col-md-2 mr-4 text-center">
+     	<img src="Images/centOS.png">
+    	<h4>CentOS</h4>
+    	<p class="text-justify"><small>The CentOS Project is a community-driven free software effort focused on delivering a robust open source ecosystem around</small></p>
+		<a href="#" class="btn btn-sm btn-outline-dark" role="button">Read More</a>
+    </div>
+ 		</div> 		 		
+	</div>	
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+             <li data-target="#myCarousel" data-slide-to="3"></li>
+              <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Images/google.jpg">
+                <div class="carousel-caption">
+        <h1 class="bg-dark">Top Organization That Are Powered By Linux</h1> 
+        <h2 class="bg-dark d-inline px-3">GOOGLE</h2>       
+     			 </div>   
+            </div>
+            <div class="carousel-item">
+                <img src="Images/ibm.jpg">
+                <div class="carousel-caption">
+        <h1 class="bg-dark">Top Organization That Are Powered By Linux</h1> 
+        <h2 class="bg-dark d-inline px-3">IBM</h2>       
+     			 </div>  
+            </div>
+            <div class="carousel-item">
+                <img src="Images/nasa.jpg">
+                <div class="carousel-caption">
+        <h1 class="bg-dark">Top Organization That Are Powered By Linux</h1> 
+        <h2 class="bg-dark d-inline px-3">NASA</h2>       
+     			 </div>            
+            </div>
+            <div class="carousel-item">
+                <img src="Images/oracle.jpg">      
+                <div class="carousel-caption">
+        <h1 class="bg-dark">Top Organization That Are Powered By Linux</h1> 
+        <h2 class="bg-dark d-inline px-3">ORACLE</h2>       
+     			 </div>      
+            </div>
+            <div class="carousel-item">
+                <img src="Images/quarter.jpg" alt="Third Slide">
+                <div class="carousel-caption">
+        <h1 class="bg-dark">Top Organization That Are Powered By Linux</h1> 
+        <h2 class="bg-dark d-inline px-3">PENTAGON</h2>       
+     			 </div>            
+            </div>
+        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    <div class="container-fluid">
+    <div class="row">
+    <div class="col-md-3 mr-4 text-center">
+    	<i class="fas fa-mobile-alt"></i>
+    	<h4>CONTACT</h4>
+    	<p class="text-justify"><small>Ubuntu is an open source software operating system that runs from the desktop, to the cloud, to all your internet connected things.</small></p>
+    </div>
+    <div class="col-md-3 mr-4 text-center">
+    	<i class="fas fa-users"></i>
+    	<h4>OUR TEAM</h4>
+    	<p class="text-justify"><small>Ubuntu is an open source software operating system that runs from the desktop, to the cloud, to all your internet connected things.</small></p>
+    </div>
+     <div class="col-md-3 mr-4 text-center">
+     	<i class="fas fa-camera-retro"></i>
+    	<h4>VIDEOS</h4>
+    	<p class="text-justify"><small>Kali Linux, an Advanced Penetration Testing Linux distribution used for Penetration Testing, Ethical Hacking and network security assessments</small></p>
+    </div>
+    <div class="col-md-3 mr-4 text-center">
+     	<i class="fas fa-tasks"></i>
+    	<h4>PROJECTS</h4>
+    	<p class="text-justify"><small>Today, Red Hat Enterprise Linux supports and powers software and technologies for automation, cloud, containers, middleware</small></p>
+    </div>
+    <div class="col-md-3 mr-4 text-center">
+     	<i class="fas fa-cloud-download-alt"></i>
+    	<h4>DOWNLOADS</h4>
+    	<p class="text-justify"><small>openSUSE formerly SUSE Linux and SuSE Linux Professional, is a Linux distribution sponsored by SUSE Software Solutions</small></p>
+    </div>
+     <div class="col-md-3 mr-4 text-center">
+     	<i class="fas fa-coffee"></i>
+    	<h4>FORUM</h4>
+    	<p class="text-justify"><small>The CentOS Project is a community-driven free software effort focused on delivering a robust open source ecosystem around</small></p>
+    </div>
+ 		</div> 
+ 	</div> 	
+ 	 <footer class="site-footer bg-dark text-light">
+      <div class="container">                
+            <h5 class="text-center">SEND US A MESSAGE</h5>
+            <p class=" text-center mt-4">It is a basic footer that provides the areas to showcase links.<br/> company info and other more important things. sponsored by SUSE Software Solutions </p>             
+      </div>
+
+      <div class="container">  
+  <form>
+    <div class="form-row">
+      <div class="col">
+        <input type="text" class="form-control" id="email" placeholder="Enter first name" name="email">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" id="email" placeholder="Enter last name" name="email">
+      </div>
+      <div class="col">
+        <input type="password" class="form-control" placeholder="Enter email" name="pswd">
+      </div>
+    </div>
+  </form>  
+      </div>
+     <br/>
+      <div class="container">  
+  <form>
+    <div class="form-row">
+      <div class="col">
+        <input type="text" class="form-control" id="email" placeholder="Enter major" name="email">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" id="email" placeholder="Enter year" name="email">
+      </div>
+      <div class="col">
+        <input type="password" class="form-control" placeholder="Enter roll number" name="pswd">
+      </div>
+    </div>
+  </form>  
+      </div>
+      <br/>
+      <div class="container">
+      	<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Leaver Meaasage"></textarea>
+      	<br/>
+      	<button class="btn btn-light w-25 mb-5" type="submit">Send Message</button>
+      </div>
+</footer>
+</body>
+</html>
