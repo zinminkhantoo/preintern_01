@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Task1</title>
+</head>
+<body>
+	<h1 id="ch-color">Hello! Welcome to Our PreIntern Group.</h1>
+	<form>
+		<select onchange="changeColor(this)">
+			 <option id="white" value="Black">Black</option>
+			  <option id="red" value="Red">Red</option>
+			  <option id="green" value="Green">Green</option>
+			  <option id="blue" value="Blue">Blue</option>			 
+		</select>
+	</form>
+	<script>
+		function changeColor(col) {
+		    var color = col.value.toLowerCase();
+		    document.querySelector('#ch-color').style.color = color;
+		};
+	</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Testing</title>
+</head>
+<body>
+	<h1 id="colorHeader">Change Color</h1>
+	<button class = "change-Color" data-ch = 'red'>Red</button>
+	<button class = "change-Color" data-ch = 'green'>Green</button>
+	<button class = "change-Color" data-ch = 'blue'>Blue</button>
+	<script>
+		document.addEventListener('DOMContentLoaded', ()=>{									//Use Arrow Function ()=>
+			document.querySelectorAll('.change-Color').forEach( button=> {		//function(button){} ===   button=>
+				button.onclick = function(){
+					document.querySelector('#colorHeader').style.color = button.dataset.ch;
+				};
+			});
+		});
+	</script>
+</body>
+</html>

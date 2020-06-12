@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Testing</title>
+</head>
+<body>
+	<form id="form"> 
+		<input type="text" name="username" id="name">
+		<input type="submit" name="Submit" value="submit">
+	</form>
+	<script>
+		document.addEventListener('DOMContentLoaded',function(){
+			document.querySelector('#form').onsubmit=function(){
+				const name = document.querySelector('#name').value;
+				alert('Welcome '+name);
+			}
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Testing</title>
+</head>
+<body>
+	<script>
+		var num = 0;
+		document.addEventListener('DOMContentLoaded' , function(){
+				document.querySelector('button').onclick=check;
+		});
+		function check() {
+			num++;
+			document.querySelector('.count').innerHTML=num;
+			if (num%10===0) {
+				alert('Your number is '+num+' times reached.');
+			}
+		}
+	</script>
+	<div class="count">0</div>
+	<button>Click Me1</button>	<!-- ပထမဆုံးတွေ့တဲ့ button tag ကိုပဲ အလုပ်လုပ်သွားမယ်။ -->
+	<button>Click Me2</button>	
+</body>
+</html>
